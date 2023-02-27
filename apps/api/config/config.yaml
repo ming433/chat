@@ -1,0 +1,10 @@
+host: 127.0.0.1
+port: 3306
+user: root
+password: example
+database: chat
+enable: true
+gorm:
+  skipDefaultTx: false # 是否跳过默认事务
+  tablePrefix: "" #表前缀
+  singularTable: true # 是否使用单数表名(默认复数)，启用后，User结构体表将是user
